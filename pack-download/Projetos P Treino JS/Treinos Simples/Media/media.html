@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Leia tres numero e escreva a media entre eles</h1>
+    <div id="result">Resultado da media dos numeros digitados</div>
+    <script>
+        let n1 = Number(prompt("Digite um numero "))
+        let n2 = Number(prompt ("Digite outro numero"))
+        let n3 = Number(prompt ("Digite um terceiro numero"))
+        let media = (n1 + n2 + n3) / 3
+        let resultado = document.getElementById ("result")
+        resultado.innerText = media
+        
+    </script>
+</body>
+</html>
